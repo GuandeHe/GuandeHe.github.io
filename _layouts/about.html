@@ -9,7 +9,9 @@ layout: default
            {% if site.title == "blank" -%}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
+        </header>
 
+        <article>
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
@@ -26,34 +28,26 @@ layout: default
               class=profile_image_class
               alt=page.profile.image -%}
             {% endif -%}
-
             <!-- {%- if page.profile.address %}
             <div class="address">
               {{ page.profile.address }}
             </div>
             {%- endif %} -->
-
             <!-- Social -->
             {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
+              <div class="social">
+                <div class="contact-icons">
+                  {% include social.html %}
+                </div>
 
-              <div class="contact-note">
-                {{ site.contact_note }}
+                <div class="contact-note">
+                  {{ site.contact_note }}
+                </div>
+                
               </div>
-              
-            </div>
             {%- endif %}
           </div>
-
-            
-          
-
-        </header>
-
-        <article>
+          {%- endif %}
 
           <div class="clearfix">
             {{ content }}
@@ -71,6 +65,7 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
 
+          
         </article>
 
 </div>
