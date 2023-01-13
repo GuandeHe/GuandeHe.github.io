@@ -6,7 +6,7 @@ subtitle: Master student, <a href='https://www.tsinghua.edu.cn/en/index.htm'>Tsi
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: photo_me.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>FIT 1-509</p>
