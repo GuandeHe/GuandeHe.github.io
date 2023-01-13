@@ -10,20 +10,6 @@ layout: default
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
 
-          
-
-            <!-- {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            {%- endif %}
-          </div>
-          {%- endif %} -->
-
-        </header>
-
-        <article>
-
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
@@ -54,6 +40,18 @@ layout: default
               
             </div>
             {%- endif %}
+
+            <!-- {%- if page.profile.address %}
+            <div class="address">
+              {{ page.profile.address }}
+            </div>
+            {%- endif %}
+          </div>
+          {%- endif %} -->
+
+        </header>
+
+        <article>
 
           <div class="clearfix">
             {{ content }}
