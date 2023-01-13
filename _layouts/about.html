@@ -4,7 +4,8 @@ layout: default
 
 <!-- about.html -->
       <div class="post">
-        <header class="post-header">
+        <article>
+        <!-- <header class="post-header"> -->
           <h1 class="post-title">
            {% if site.title == "blank" -%}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
@@ -41,17 +42,17 @@ layout: default
             </div>
             {%- endif %}
 
-            {%- if page.profile.address %}
+            <!-- {%- if page.profile.address %}
             <div class="address">
               {{ page.profile.address }}
             </div>
             {%- endif %}
           </div>
-          {%- endif %}
+          {%- endif %} -->
 
-        </header>
+        <!-- </header> -->
 
-        <article>
+        
 
           <div class="clearfix">
             {{ content }}
