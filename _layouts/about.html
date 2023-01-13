@@ -9,9 +9,7 @@ layout: default
            {% if site.title == "blank" -%}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
-        </header>
 
-        <article>
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
@@ -35,6 +33,10 @@ layout: default
             {%- endif %}
           </div>
           {%- endif %}
+
+        </header>
+
+        <article>
 
           <div class="clearfix">
             {{ content }}
