@@ -33,10 +33,10 @@
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
 
-"Zhu"
+"Zhu":
   - firstname: ["Jun"]
     url: https://ml.cs.tsinghua.edu.cn/~jun/
 
-"Chen"
+"Chen":
   - firstname: ["Jianfei"]
     url: https://ml.cs.tsinghua.edu.cn/~jianfei/
