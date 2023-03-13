@@ -14,7 +14,7 @@ profile:
     <p>Haidian  District, Beijing, 100084, P. R. China</p>
 
 news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 I'm a second year master student at the [Department of Computer Science and Technology, Tsinghua University](https://www.cs.tsinghua.edu.cn/csen/), advised by [Prof. Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) and [Prof. Jianfei Chen](https://ml.cs.tsinghua.edu.cn/~jianfei/). Before that, I got my bachelor's degree from the [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/en/) in 2021.
