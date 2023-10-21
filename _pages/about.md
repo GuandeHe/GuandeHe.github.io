@@ -17,7 +17,7 @@ news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I'm a third year master's student at the [Department of Computer Science and Technology, Tsinghua University](https://www.cs.tsinghua.edu.cn/csen/), advised by [Prof. Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) and [Prof. Jianfei Chen](https://ml.cs.tsinghua.edu.cn/~jianfei/). Before that, I received my B.S. from the [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/en/) in 2021.
+I'm a third year master's student at the [Department of Computer Science and Technology, Tsinghua University](https://www.cs.tsinghua.edu.cn/csen/), advised by [Prof. Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) and [Prof. Jianfei Chen](https://ml.cs.tsinghua.edu.cn/~jianfei/). Before that, I received my B.Eng. from the [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/en/) in 2021.
 
 My research interest includes **machine learning** and **uncertainty quantification**, especially focusing on foundation models under pre-train & fine-tune paradigm.
 
