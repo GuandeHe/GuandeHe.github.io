@@ -58,16 +58,20 @@ layout: default
 
           <!-- News -->
           {% if page.news -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h3><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h3>
             {%- include news.html %}
           {%- endif %}
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
             <!-- <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">publications</a></h2> -->
-            <h2><a style="color: inherit;">publications</a></h2>
+            <h3><a style="color: inherit;">Publications</a></h3>
             {%- include selected_papers.html %}
           {%- endif %}
+
+          <h3><a style="color: inherit;">Teaching</a></h3>
+          2023 Spring, TA in Statistical Learning Theory and Applications, instructed by Prof. <a href="https://ml.cs.tsinghua.edu.cn/~jun/index.shtml">Jun Zhu</a>. 
+
         </article>
 
 </div>
