@@ -40,6 +40,9 @@
 "Chen":
   - firstname: ["Jianfei"]
     url: https://ml.cs.tsinghua.edu.cn/~jianfei/
+  
+  - firstname: ["Zehua"]
+    url: https://scholar.google.com/citations?user=wa04fD4AAAAJ
 
 "Cui":
  - firstname: ["Peng"]
@@ -48,3 +51,11 @@
 "Hu":
  - firstname: ["Wenbo"]
    url: https://wbhu.net/
+
+"Zheng":
+ - firstname: ["Kaiwen"]
+   url: https://github.com/zhengkw18
+
+"Tan":
+ - firstname: ["Xu"]
+   url: https://tan-xu.github.io/
