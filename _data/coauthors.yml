@@ -43,6 +43,9 @@
   
   - firstname: ["Zehua"]
     url: https://scholar.google.com/citations?user=wa04fD4AAAAJ
+  
+  - firstname: ["Huayu"]
+    url: https://chendrag.github.io/
 
 "Cui":
  - firstname: ["Peng"]
@@ -59,3 +62,7 @@
 "Tan":
  - firstname: ["Xu"]
    url: https://tan-xu.github.io/
+
+"Su":
+ - firstname: ["Hang"]
+   url: https://www.suhangss.me/
