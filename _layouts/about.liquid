@@ -3,18 +3,6 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
-  <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
@@ -35,8 +23,31 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+            <!-- Social -->
+        {% if page.social %}
+          <div class="social">
+            <div class="contact-icons">{% include social.liquid %}</div>
+
+            <div class="contact-note">{{ site.contact_note }}</div>
+          </div>
+        {% endif %}
       </div>
     {% endif %}
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    {% comment %} <p class="desc">{{ page.subtitle }}</p> {% endcomment %}
+    <p class="content" style="margin-bottom: 0px;font-size: 1.2em;">{{ page.subtitle }}</p> 
+    {% comment %} <p class="content"> {{ page.affiliation }}</p>  {% endcomment %}
+    <p></p>
+  </header>
+
+  <article>
 
     <div class="clearfix">{{ content }}</div>
 
@@ -58,20 +69,38 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
+      <h3>
+        Publications
+        {% comment %} <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a> {% endcomment %}
+      </h3>
+      <p class="post-description">* denotes equal contribution; † denotes corresponding authors</p>
       {% include selected_papers.liquid %}
     {% endif %}
+    
+    
+    
+    <div class="clearfix">
+      <h3>Teaching</h3>
+      <p></p>
+      <ul>
+        <li>2024 Fall, TA in STA 235 "Data Science for Business Applications", UT Austin, instructed by Prof. <a href="https://mingyuanzhou.github.io/">Mingyuan Zhou</a>.</li>
+        <li>2023 Spring, TA in "Statistical Learning Theory and Applications", Tsinghua University, instructed by Prof. <a href="https://ml.cs.tsinghua.edu.cn/~jun/index.shtml">Jun Zhu</a>.</li>
+      </ul>
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+      <h3>Miscellaneous</h3>
+        <p>My slides for TSAIL reading group:</p>
+        <ul>
+          <li><a href="../assets/pdf/PEFT.pdf" target="_blank">Parameter Efficient Tuning for Transformers</a></li>
+          <li><a href="../assets/pdf/CNLG.pdf" target="_blank">Controllable Neural Language Generation</a></li>
+          <li><a href="../assets/pdf/ICL.pdf" target="_blank">Recent Advances in In-Context Learning</a></li>
+          <li><a href="../assets/pdf/FM-Adaption.pdf" target="_blank">On Downstream Adaptation of Foundation Models</a></li>
+          <li><a href="../assets/pdf/LongLM.pdf" target="_blank">On Long Context Language Modeling</a></li>
+        </ul>
+      
+      <h3>Personal</h3>
+        <p>I am an amateur saxophone and (bass) trombone player and I enjoy playing music &#127926 :-)</p>
+    </div>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
 
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}

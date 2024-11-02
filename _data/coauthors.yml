@@ -1,43 +1,11 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
-
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
-
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
-
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
-
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
-
-"Zhu":
+"zhu":
   - firstname: ["Jun"]
     url: https://ml.cs.tsinghua.edu.cn/~jun/
 
-"Chen":
+  - firstname: ["Hongzhou"]
+    url: https://zhuhz22.github.io/
+
+"chen":
   - firstname: ["Jianfei"]
     url: https://ml.cs.tsinghua.edu.cn/~jianfei/
   
@@ -47,22 +15,45 @@
   - firstname: ["Huayu"]
     url: https://chendrag.github.io/
 
-"Cui":
+"cui":
  - firstname: ["Peng"]
    url: https://github.com/Pengfight
 
-"Hu":
+ - firstname: ["Ganqu"]
+   url: https://cgq15.github.io/
+
+"hu":
  - firstname: ["Wenbo"]
    url: https://wbhu.net/
 
-"Zheng":
+"zheng":
  - firstname: ["Kaiwen"]
-   url: https://github.com/zhengkw18
+   url: https://zhengkw18.github.io/
 
-"Tan":
+"tan":
  - firstname: ["Xu"]
    url: https://tan-xu.github.io/
 
-"Su":
+"su":
  - firstname: ["Hang"]
    url: https://www.suhangss.me/
+
+"yuan":
+ - firstname: ["Lifan"]
+   url: https://lifan-yuan.github.io/
+
+"bao":
+ - firstname: ["Fan"]
+   url: https://baofff.github.io/
+  
+"liu":
+ - firstname: ["Shilong"]
+   url: https://lsl.zone/
+
+"xiang":
+ - firstname: ["Chendong"]
+   url: https://xiang-cd.github.io/
+
+"zhao":
+ - firstname: ["Min"]
+   url: https://gracezhao1997.github.io/
