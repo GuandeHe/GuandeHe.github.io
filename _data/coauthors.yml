@@ -18,6 +18,9 @@
   - firstname: ["Yixiao"]
     url: https://github.com/Chyxx
 
+  - firstname: ["Yongxin"]
+    url: https://yongxin.ae.gatech.edu/
+
 "cui":
  - firstname: ["Peng"]
    url: https://github.com/Pengfight
@@ -64,6 +67,9 @@
 "liu":
  - firstname: ["Shilong"]
    url: https://lsl.zone/
+   
+ - firstname: ["Ming-Yu"]
+   url: https://mingyuliu.net/
 
 "xiang":
  - firstname: ["Chendong"]
@@ -72,3 +78,7 @@
 "zhao":
  - firstname: ["Min"]
    url: https://gracezhao1997.github.io/
+
+"zhang":
+- firstname: ["Qinsheng"]
+  url: https://qsh-zh.github.io/
