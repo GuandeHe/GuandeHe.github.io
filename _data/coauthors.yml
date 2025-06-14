@@ -40,6 +40,10 @@
  - firstname: ["Wenbo"]
    url: https://wbhu.net/
 
+"huang":
+- firstname: ["Xun"]
+  url: https://www.xunhuang.me/
+
 "zheng":
  - firstname: ["Kaiwen"]
    url: https://zhengkw18.github.io/
@@ -52,6 +56,10 @@
  - firstname: ["Hang"]
    url: https://www.suhangss.me/
 
+"shechtman":
+- firstname: ["Eli"]
+  url: https://research.adobe.com/person/eli-shechtman/
+
 "yuan":
  - firstname: ["Lifan"]
    url: https://lifan-yuan.github.io/
@@ -63,6 +71,9 @@
 "li":
 - firstname: ["Chongxuan"]
   url: https://zhenxuan00.github.io/
+  
+- firstname: ["Zhengqi"]
+  url: https://zhengqili.github.io/
 
 "liu":
  - firstname: ["Shilong"]
@@ -78,6 +89,10 @@
 "zhao":
  - firstname: ["Min"]
    url: https://gracezhao1997.github.io/
+
+"zhou":
+- firstname: ["Mingyuan"]
+  url: https://mingyuanzhou.github.io/
 
 "zhang":
 - firstname: ["Qinsheng"]
